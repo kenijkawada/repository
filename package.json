@@ -1,0 +1,8 @@
+{
+  "name": "cleanblog",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "4",
+    "jquery": "^3.3.1"
+  }
+}

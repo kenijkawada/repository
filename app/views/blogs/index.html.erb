@@ -1,0 +1,10 @@
+<div class="index-page">
+  <h2>ブログ一覧</h2>
+<p><%= notice %></p>
+
+
+<% @blogs.each do |blog| %>
+    <h3>タイトル: <%= blog.title %></h3><br>
+    <h3>内容: <%= blog.context %></h3><br>
+<% end %>
+</div>
